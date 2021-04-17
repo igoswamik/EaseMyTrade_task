@@ -1,0 +1,34 @@
+body {
+  background-color: black;
+  color: white;
+  margin: 0%;
+  box-sizing: border-box;
+}
+.object {
+  background-color: saddlebrown;
+  color: white;
+  padding: 10px;
+}
+header {
+  width: 100%;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: goldenrod;
+  margin-bottom: 15vh;
+  padding: 10px;
+  align-content: center;
+}
+.note {
+  padding: 10px 10%;
+  width: 100%;
+  background-color: lightgray;
+  color: maroon;
+  font-style: italic;
+  font-weight: 500;
+}
+.note > span {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
